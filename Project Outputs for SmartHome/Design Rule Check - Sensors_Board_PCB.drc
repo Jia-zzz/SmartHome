@@ -1,0 +1,46 @@
+Protel Design System Design Rule Check
+PCB File : F:\Code\PCBProjects\SmartHome\Sensors_Board_PCB.PcbDoc
+Date     : 2021/1/4
+Time     : 0:38:32
+
+Processing Rule : Clearance Constraint (Gap=20mil) (InPolygon AND InNet('GND')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=15mil) (InPolygon),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=15mil) (Max=15mil) (Preferred=15mil) (InNet('VCC_3V3'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=15mil) (Max=15mil) (Preferred=15mil) (InNet('VCC_DC'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=10mil) (Preferred=10mil) (All)
+   Violation between Width Constraint: Track (8685mil,5809.842mil)(8685mil,5810mil) on Top Layer Actual Width = 8mil, Target Width = 10mil
+Rule Violations :1
+
+Processing Rule : Width Constraint (Min=15mil) (Max=15mil) (Preferred=15mil) (InNet('VCC_5V'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=6mil) (Max=60mil) (Preferred=15mil) (InNetClass('PWR'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+
+Violations Detected : 1
+Waived Violations : 0
+Time Elapsed        : 00:00:00
